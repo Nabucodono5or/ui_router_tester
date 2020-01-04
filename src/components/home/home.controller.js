@@ -1,6 +1,6 @@
 function HomeController() {
-    var vm  = this;
-    vm.title = "Primeiro Componente";
+  var vm = this;
+  vm.title = "Primeiro Componente";
 }
 
-export default HomeController
+export default HomeController;
