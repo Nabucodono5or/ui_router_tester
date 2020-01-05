@@ -24,6 +24,7 @@
     "babel-plugin-transform-html-import-to-string": "0.0.1"
   },
   "dependencies": {
+    "@uirouter/angularjs": "^1.0.24",
     "angular": "^1.7.9"
   }
 }
