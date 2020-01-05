@@ -3,3 +3,37 @@
   margin: 0;
   padding: 0;
 }
+
+.container {
+  height: 300px;
+  width: 300px;
+  margin: 2em;
+}
+
+.home-block {
+  color: brown;
+  background-color: aqua;
+}
+
+.about-block {
+  background-color: brown;
+  color: aqua;
+}
+
+.title {
+  text-align: center;
+}
+
+.active {
+  color: deeppink;
+}
+
+a {
+  text-decoration: none;
+  color: coral;
+}
+
+.links {
+  margin: .5em;
+  font-size: 1.5em;
+}
