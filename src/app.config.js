@@ -2,13 +2,13 @@ function configState($stateProvider) {
     let home = {
         name: 'home',
         url: '/home',
-        template: '<home></home>'
+        component: 'home'
     };
 
     let about = {
         name: 'about',
         url: '/about',
-        template: '<about></about>'
+        component: 'about'
     }
 
     $stateProvider.state(home);
