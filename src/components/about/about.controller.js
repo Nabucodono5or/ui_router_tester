@@ -2,8 +2,6 @@ let aboutController = function AboutController() {
   var vm = this;
   vm.title = "Segundo componente";
   vm.users = [];
-
-  // console.log(vm.promiseObj);
   
   activate();
 
@@ -21,7 +19,5 @@ let aboutController = function AboutController() {
       });
   }
 };
-
-// aboutController.$inject = ["promiseObj"];
 
 export default aboutController;

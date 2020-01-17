@@ -3,8 +3,8 @@ import controller from "./about.controller";
 
 let aboutComponent = {
   template,
-  bindigs: {
-    promiseObj: '='
+  bindings: {
+    promiseObj: '<',
   },
   controller,
   controllerAs: "vm"
