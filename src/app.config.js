@@ -10,9 +10,12 @@ function configState($stateProvider) {
     url: "/about",
     component: "about",
     resolve: {
-      promiseObj: ['$http', function($http) {
-        return $http.get("https://jsonplaceholder.typicode.com/users");
-      }]
+      // promiseObj: ['$http', function($http) {
+      //   return $http.get("https://jsonplaceholder.typicode.com/users");
+      // }]
+      texto: function () {
+        return 'texto'
+      }
     }
   };
 

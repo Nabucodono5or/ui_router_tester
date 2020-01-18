@@ -3,11 +3,12 @@ import controller from "./about.controller";
 
 let aboutComponent = {
   template,
-  bindings: {
-    promiseObj: '<',
-  },
   controller,
-  controllerAs: "vm"
+  controllerAs: "vm",
+  bindings: {
+    // promiseObj: "<"
+    texto: '<'
+  }
 };
 
 export default aboutComponent;
