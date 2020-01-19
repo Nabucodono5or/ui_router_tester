@@ -2,28 +2,19 @@ let aboutController = function AboutController() {
   var vm = this;
   vm.title = "Segundo componente";
   vm.users = [];
+  vm.$onInit = onInit;
 
-  vm.$onInit = function() {
+  ////////////////////////
+
+  function onInit() {
     console.log(vm.texto);
-  };
+    vm.users = getUsers();
+  }
 
-  // console.log(vm.texto);
-
-  // activate();
-
-  // function activate() {
-  //   return getUsers();
-  // }
-
-  // function getUsers() {
-  //   return vm.promiseObj.then(
-  //     data => {
-  //       console.log(data.data);
-  //     },
-  //     error => {
-  //       console.log("Não carregou direito!");
-  //     });
-  // }
+  function getUsers() {
+    console.log(vm.promiseobj);
+    return vm.promiseobj;
+  }
 };
 
 export default aboutController;

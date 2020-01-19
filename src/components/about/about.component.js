@@ -6,7 +6,7 @@ let aboutComponent = {
   controller,
   controllerAs: "vm",
   bindings: {
-    // promiseObj: "<"
+    promiseobj: '<',
     texto: '<'
   }
 };
